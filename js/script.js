@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
             imageUrl: "img/infra.png",
             repoUrl: "https://github.com/Jesya-o/infrastructure-services",
             tags: ["Ansible", "Docker", "Grafana", "Prometheus", "MySQL", "InfluxDB", "Bash", "Bind"]
+        },
+        {
+            title: "Data structures and algorithms",
+            description: "Implementation of data structures such as String, Rational, Trees, Arrays, Queues and algorithms such as Graham algo, Binary Search, Sortings.",
+            imageUrl: "img/c.png",
+            repoUrl: "https://github.com/Jesya-o/data-structures-and-algorithms",
+            tags: ["C++"]
         }
     ];
 
