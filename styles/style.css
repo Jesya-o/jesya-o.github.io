@@ -51,7 +51,7 @@ nav a, footer a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 }
 
 /* Tags */
@@ -87,9 +87,10 @@ nav a, footer a {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.158);
     transition: transform 0.3s ease;
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .project-card:hover {
@@ -130,6 +131,18 @@ footer {
 @media (max-width: 768px) {
     .flex-wrap {
         flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .project-card {
+        width: calc(50% - 0.5rem);
+    }
+}
+
+@media (min-width: 1024px) {
+    .project-card {
+        width: calc(33.333% - 0.5rem);
     }
 }
 
